@@ -11,5 +11,5 @@ Open Chrome
     Call Method    ${chrome_options}    add_argument    --no-sandbox
     Create Webdriver    Chrome    chrome_options=${chrome_options}
     Set Window Size  1024  768
-    Go To  https://youtube.com
+    Go To  example.com
     Sleep    3s
